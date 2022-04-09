@@ -59,9 +59,9 @@ begin
 				
 				--Output the normal data or the data with high and low swapped
 				if btn_clk_rx = '1' then
-					led_pipeline_reg <= char_data(3 downto 0);
-				else
 					led_pipeline_reg <= char_data(7 downto 4);
+				else
+					led_pipeline_reg <= char_data(3 downto 0);
 				end if;
 			end if;	-- if !rst
 		end if;
