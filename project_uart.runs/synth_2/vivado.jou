@@ -2,8 +2,8 @@
 # Vivado v2018.1 (64-bit)
 # SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
 # IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
-# Start of session at: Sat Apr  9 14:21:12 2022
-# Process ID: 6472
+# Start of session at: Sat Apr  9 14:39:36 2022
+# Process ID: 10344
 # Current directory: C:/Users/dev_fw/Desktop/CESE/vivado/project_uart/project_uart.runs/synth_2
 # Command line: vivado.exe -log uart_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source uart_top.tcl
 # Log file: C:/Users/dev_fw/Desktop/CESE/vivado/project_uart/project_uart.runs/synth_2/uart_top.vds
