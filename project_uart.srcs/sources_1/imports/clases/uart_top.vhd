@@ -28,6 +28,7 @@ entity uart_top is
 		rst_pin: in std_logic;		-- Active HIGH reset (from pin)
 		btn_pin: in std_logic;		-- Button to swap high and low bits
 		rxd_pin: in std_logic; 		-- Uart input
+		txd_pin: out std_logic;
 		led_pins: out std_logic_vector(3 downto 0) -- 4 LED outputs
 	);
 end;
@@ -51,7 +52,7 @@ architecture uart_top_arq of uart_top is
 	end component;
 
 begin
-
+    txd_pin <= rxd_pin;
 	U0: uart_led
 		generic map(
 			BAUD_RATE => 115200,
