@@ -1,7 +1,7 @@
 ##ArtyZ7 Timing
 
 # define clock and period
-create_clock -period 20.000 -name clk_pin -waveform {0.000 10.000} [get_ports clk_pin]
+create_clock -period 8.000 -name clk_pin -waveform {0.000 4.000} [get_ports clk_pin]
 
 # Create a virtual clock for IO constraints
 create_clock -period 12.000 -name virtual_clock
